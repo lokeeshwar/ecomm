@@ -1,0 +1,40 @@
+.userpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    height: 450px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin: 40px;
+}
+
+.userContent input {
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+    border-radius: 25px;
+}
+
+::placeholder{
+    color: brown;
+    padding: 10px;
+}
+
+.userContent button {
+        width: 150px;
+        height: 35px;
+        background-color: rgb(19, 19, 19);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        margin: 10px;
+        cursor: pointer;
+      
+}
